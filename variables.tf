@@ -1,0 +1,13 @@
+variable "vpc_cidr_block" {}
+variable "public_subnet_cidr" {}
+variable "private_subnet_cidr" {}
+variable "db_subnet_cidr_1" {}
+variable "db_subnet_cidr_2" {}
+variable "db_username" {}
+variable "db_password" {}
+variable "rds_instance_type" {}
+variable "db_allocated_storage" {}
+variable "ec2_ami" {}
+variable "instance_type" {}
+variable "key_pair_name" {}
+variable "aws_region" {}
